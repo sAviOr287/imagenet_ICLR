@@ -1,0 +1,18 @@
+{
+  "exp_name": "cifar100_resnet104_SNIP_new",
+  "network": "resnet",
+  "depth": 104,
+  "dataset": "cifar100",
+  "batch_size": 128,
+  "epoch": "250",
+  "learning_rate": "0.1",
+  "weight_decay": "1e-4",
+  "exception": "-1",
+  "iterations": 1,
+  "normalize": false,
+  "pruner": "SNIP",
+  "pruner_file": "SNIP",
+  "samples_per_class": 10
+}
+
+

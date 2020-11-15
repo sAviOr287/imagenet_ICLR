@@ -1,0 +1,18 @@
+{
+  "exp_name": "imagenet_resnet104_GraSP",
+  "network": "resnet",
+  "depth": 104,
+  "dataset": "imagenet",
+  "batch_size": 128,
+  "epoch": "0",
+  "learning_rate": "0",
+  "weight_decay": "0",
+  "exception": "-1",
+  "iterations": 1,
+  "normalize": false,
+  "pruner": "GraSP",
+  "pruner_file": "GraSP_ImageNet",
+  "samples_per_class": 1,
+  "num_iters": 150,
+  "traindir": "xxxx/train"
+}
